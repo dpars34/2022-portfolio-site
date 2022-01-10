@@ -1,0 +1,77 @@
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(88deg, #232323 50.5%, #E1E1E1 50.6%)
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.titleName {
+    font-family: 'Cabin', sans-serif;
+    font-size: 4rem;
+    color: #232323;
+    margin: 0;
+}
+
+.firstName {
+    color: #FFFFFF;
+    margin: 0 1.3rem;
+}
+
+.subtitle {
+    
+    font-size: 1.5rem;
+    color: #232323;
+    margin: 0;
+}
+
+.profilePicture {
+    max-height: 350px;
+    margin-top: 3rem;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contactButton {
+    all: unset;
+    margin: 3rem;
+    padding: 1rem 2rem;
+    color: #FFFFFF;
+    background-color: #DB9205;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.bottomArea {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.englishButton {
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.japaneseButton {
+    font-size: 2rem;
+    color: #232323;
+}
+
+.languageLabel {
+    padding: 0;
+    margin: 0;
+}
+
+.arrow {
+    padding: 0;
+    margin: 0;
+}
